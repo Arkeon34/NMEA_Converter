@@ -28,8 +28,13 @@ html {
 }
 
 @media (max-width: 1250px) {
-    .container.flex{
-        width: 90%;
+    .container.flex, form, .text{
+        width: 100%;
+    }
+
+    body{
+        width: 100%;
+        padding: 20px;
     }
 }
 

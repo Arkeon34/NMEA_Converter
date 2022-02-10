@@ -9,21 +9,30 @@ html {
 	font-family: 'Roboto', sans-serif;
 	color : white;
 	min-height: 100vh;
-	height: 100%;
 	display: flex;
 	flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+
 .container.flex {
   display: flex;
   height: 100%;
+  width: 60%;
   justify-content: center;
   align-items: center;
-  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 40px;
 }
+
+@media (max-width: 1250px) {
+    .container.flex{
+        width: 90%;
+    }
+}
+
 .pin-img {
 	margin-right: 7px;
 }
@@ -75,7 +84,9 @@ input[type=button]:hover {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 2%;
+	margin-top: 20px;
 }
+
 .request-result {
 	margin-top: 0.5%;
 	margin-bottom: 0.5%;

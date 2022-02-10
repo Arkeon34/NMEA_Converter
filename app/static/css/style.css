@@ -19,7 +19,7 @@ html {
 .container.flex {
   display: flex;
   height: 100%;
-  width: 60%;
+  width: 50%;
   justify-content: center;
   align-items: center;
   margin-left: auto;
